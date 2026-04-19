@@ -19,7 +19,7 @@ export default function PrivacyPolicy() {
           <section>
             <h2 className="text-xl font-bold mb-3">1. Overview</h2>
             <p>
-              Chronomind is built with a "privacy-first" philosophy. We believe that your data 
+              Chronomind is built with a &quot;privacy-first&quot; philosophy. We believe that your data 
               belongs to you. Our application is designed to function without the need to collect, 
               store, or transmit any of your personal identification.
             </p>
@@ -49,33 +49,19 @@ export default function PrivacyPolicy() {
           </section>
 
           <section>
-            <h2 className="text-xl font-bold mb-3">4. Children's Privacy</h2>
+            <h2 className="text-xl font-bold mb-3">4. Changes to This Privacy Policy</h2>
             <p>
-              Our services do not address anyone under the age of 13. We do not knowingly collect 
-              personally identifiable information from children. If you are a parent and discover 
-              your child has provided us with personal data, please contact us.
+              We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
             </p>
           </section>
 
           <section>
             <h2 className="text-xl font-bold mb-3">5. Contact Us</h2>
             <p>
-              If you have any questions or concerns regarding this policy, please reach out via email:
+              If you have any questions about this Privacy Policy, please contact us at support@chronomind.com.
             </p>
-            <a 
-              href={`mailto:${contactEmail}`} 
-              className="inline-block mt-2 text-sky-500 hover:text-sky-600 font-medium transition-colors"
-            >
-              {contactEmail}
-            </a>
           </section>
-
         </div>
-
-        {/* Footer */}
-        <footer className="mt-20 pt-8 border-t border-slate-200 dark:border-zinc-800 text-center text-sm text-slate-500">
-          <p>© {new Date().getFullYear()} Chronomind. All rights reserved.</p>
-        </footer>
       </div>
     </main>
   );

@@ -129,7 +129,7 @@ export default function Home() {
             <div className="bg-surface-elevated border border-border-subtle border-l-[4px] border-l-accent-primary rounded-[14px] p-8 relative shadow-sm">
                 <p className="text-[11px] font-medium tracking-[0.1em] uppercase text-accent-primary mb-[18px] m-0">The Mission</p>
                 <blockquote className="font-editorial text-[1.25rem] font-normal leading-[1.45] text-text-primary mb-4 p-0 border-none m-0">
-                "Chronomind is a tactical simulation tool. We build choice-driven dialogue models that allow caregivers to practice their response to dementia-related crises in a zero-risk environment before executing them in reality."
+                &quot;Chronomind is a tactical simulation tool. We build choice-driven dialogue models that allow caregivers to practice their response to dementia-related crises in a zero-risk environment before executing them in reality.&quot;
                 </blockquote>
             </div>
 
