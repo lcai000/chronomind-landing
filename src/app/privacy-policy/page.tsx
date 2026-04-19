@@ -58,7 +58,7 @@ export default function PrivacyPolicy() {
           <section>
             <h2 className="text-xl font-bold mb-3">5. Contact Us</h2>
             <p>
-              If you have any questions about this Privacy Policy, please contact us at support@chronomind.com.
+              If you have any questions about this Privacy Policy, please contact us at chronomind.contact.dev@gmail.com.
             </p>
           </section>
         </div>
